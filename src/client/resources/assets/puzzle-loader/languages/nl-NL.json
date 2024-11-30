@@ -1,0 +1,45 @@
+{
+    "language_tag": "nl-NL",
+    "major_version": 1,
+    "minor_version": 0,
+    "ids": [
+        "puzzle-loader"
+    ],
+    "puzzle-loader": {
+        "priority": 1000,
+        "format_templates": {
+            "loading_menu": {
+                "ram_usage": [
+                    "usage",
+                    "total"
+                ],
+                "loading_assets": ["n", "total"],
+                "creating_blocks": ["n", "total"],
+                "creating_block_events": ["n", "total"]
+            }
+        },
+        "strings": {
+            "menu": {
+                "on": "AAN",
+                "off": "UIT",
+                "cancel": "Annuleren",
+                "back": "Terug",
+                "save": "Opslaan",
+                "ok": "Oké",
+                "done": "Klaar",
+                "return_to_main_menu": "Terug naar het hoofdmenu",
+                "return_to_game": "Terug naar het spel",
+                "mods": "Mods"
+            },
+            "loading_menu": {
+                "ram_usage": "Geheugen in gebruik/totaal: {usage}MB/{total}MB",
+                "loading_assets": "Bestanden laden: {n}/{total}",
+                "loading_cosmic_reach": "Cosmic Reach laden",
+                "creating_blocks": "Blokken maken: {n}/{total}",
+                "creating_block_events": "Blokgebeurtenissen maken: {n}/{total}",
+                "registering_assets": "Bestanden registeren",
+                "initializing": "Puzzle-mods initialiseren"
+            }
+        }
+    }
+}
